@@ -1,0 +1,23 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+.first-conteiner{
+
+}
+
+.vertical-align{
+    border-left:3px solid tomato;
+    position: absolute;
+    height: 120px;
+    left: 90px;
+    top: 150px;
+    border-radius: 20%;
+}
+.name{
+    padding-left: 120px;
+    top: 150px;
+}
