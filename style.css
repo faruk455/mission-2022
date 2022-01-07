@@ -1,23 +1,128 @@
 body{
+    font-family: 'Luxurious Roman', cursive;
     
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    padding: 0px;
-
 }
-.first-conteiner{
-
-}
-
-.vertical-align{
+.vertical{
     border-left:3px solid tomato;
     position: absolute;
     height: 120px;
     left: 90px;
     top: 150px;
-    border-radius: 20%;
+    border-radius: 20%;   
 }
-.name{
-    padding-left: 120px;
-    top: 150px;
+h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+section{
+    display: flex;
+    margin-left: 100px;
+}
+.first-sec{
+    width: 50%;
+}
+.first-sec img{
+    width: 80%;
+}
+#line-down{
+    margin-top: 100px; 
+}
+.text-color{
+    color: rgb(82,29,188);
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(82,29,188), rgb(168,101,139));
+    border-radius: 5px;
+}
+
+
+.fix-padding{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+
+}
+.text-color1{
+    color: purple;
+}
+.my-mission{
+    display: flex;
+    
+}
+.mission{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.mission img {
+    width:50%;
+}
+#bg-color{
+    background-color: rgb(235, 235, 235);
+}
+
+#bg-color1{
+    background-color: rgb(200, 200, 200);
+}
+
+#bg-color2{
+    background-color: rgb(243, 231, 166);
+}
+.second-sec{
+    width: 50%;
+} 
+.second-sec img{
+    width: 80%;
+    
+}   
+.down{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+.third-container{
+    background-image: url(images/shapes/shape-10.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;   
+}
+.fourth-container{
+    margin-top: -250px;
+    background-image: url(images/shapes/shape-3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
+    
+}
+#fix-size{
+    margin-left: 0;
+}
+#center{
+    margin-top: -150px;
+}
+#left-side{
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
 }
